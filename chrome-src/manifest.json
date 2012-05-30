@@ -1,7 +1,8 @@
 {
   "name": "Sites Mockups",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Turn Google Sites File Cabinet template into a mockups-friendly experience.",
+  "homepage_url": "https://github.com/kennberg/sites-mockups",
   "icons": {
     "48" : "sites-mockups-48.png",
     "128" : "sites-mockups-128.png"
