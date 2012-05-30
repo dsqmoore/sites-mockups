@@ -1,0 +1,32 @@
+{
+  "name": "Sites Mockups",
+  "version": "0.1.1",
+  "description": "Turn Google Sites File Cabinet template into a mockups-friendly experience.",
+  "icons": {
+    "48" : "sites-mockups-48.png",
+    "128" : "sites-mockups-128.png"
+  },
+  "permissions": [
+    "http://sites.google.com/*",
+    "https://sites.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://sites.google.com/*mocks*",
+        "http://sites.google.com/*Mocks*",
+        "http://sites.google.com/*mockups*",
+        "http://sites.google.com/*Mockups*",
+        "https://sites.google.com/*mocks*",
+        "https://sites.google.com/*Mocks*",
+        "https://sites.google.com/*mockups*",
+        "https://sites.google.com/*Mockups*"
+      ],
+      "js": [
+        "xui.js",
+        "sites-mockups-extension.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
