@@ -1,4 +1,3 @@
-// Sites Mockups
 /**
  * Sites Mockups (https://github.com/kennberg/sites-mockups)
  *
